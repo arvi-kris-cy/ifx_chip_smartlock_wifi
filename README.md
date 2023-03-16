@@ -1,0 +1,1 @@
+# ifx_chip_smartlock_wifi
