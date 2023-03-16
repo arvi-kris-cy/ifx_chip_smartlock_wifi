@@ -1,0 +1,1192 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA0E0CF248599BB009087B9 /* OnOffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA0E0CE248599BB009087B9 /* OnOffViewController.m */; };
+		2C21071525D1A8F200DDA4AD /* MultiAdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21071325D1A8F200DDA4AD /* MultiAdminViewController.m */; };
+		51C8E3FB28261DCF00D47D00 /* FabricKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C8E3FA28261DCF00D47D00 /* FabricKeys.m */; };
+		76479AA5295D6F8500242778 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 76479AA4295D6F8500242778 /* Amplify */; };
+		76479AAC295D705000242778 /* AWSDynamoDB in Frameworks */ = {isa = PBXBuildFile; productRef = 76479AAB295D705000242778 /* AWSDynamoDB */; };
+		76479AAE295D705000242778 /* AWSIoT in Frameworks */ = {isa = PBXBuildFile; productRef = 76479AAD295D705000242778 /* AWSIoT */; };
+		76479AB1295D742000242778 /* SampleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AB0295D742000242778 /* SampleFile.swift */; };
+		76479AB3295D914300242778 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 76479AB2295D914300242778 /* amplifyconfiguration.json */; };
+		76479AB5295D91CD00242778 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 76479AB4295D91CD00242778 /* awsconfiguration.json */; };
+		76479AB7295D92A700242778 /* awsiot-identity.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 76479AB6295D92A600242778 /* awsiot-identity.p12 */; };
+		76479ABA295D92EA00242778 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AB9295D92EA00242778 /* Constants.swift */; };
+		76479AF9295D959600242778 /* SetupKeyPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AC0295D959500242778 /* SetupKeyPinViewController.swift */; };
+		76479AFA295D959600242778 /* ViewDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AC1295D959500242778 /* ViewDeviceViewController.swift */; };
+		76479AFB295D959600242778 /* DeviceSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479AC2295D959500242778 /* DeviceSelector.m */; };
+		76479AFC295D959600242778 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AC3295D959500242778 /* SideMenuViewController.swift */; };
+		76479AFD295D959600242778 /* ProvisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AC8295D959600242778 /* ProvisionViewController.swift */; };
+		76479AFE295D959600242778 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479ACA295D959600242778 /* SignUpViewController.swift */; };
+		76479AFF295D959600242778 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479ACB295D959600242778 /* OTPViewController.swift */; };
+		76479B00295D959600242778 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479ACD295D959600242778 /* RootViewController.m */; };
+		76479B01295D959600242778 /* RootViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479ACE295D959600242778 /* RootViewControllerExtension.swift */; };
+		76479B02295D959600242778 /* Reachabulity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AD1295D959600242778 /* Reachabulity.swift */; };
+		76479B03295D959600242778 /* OnOffAwsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AD4295D959600242778 /* OnOffAwsViewController.swift */; };
+		76479B06295D959600242778 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AD8295D959600242778 /* UIView+Extension.swift */; };
+		76479B07295D959600242778 /* BatteryFrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479ADA295D959600242778 /* BatteryFrequencyViewController.swift */; };
+		76479B08295D959600242778 /* ConfigIotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479ADC295D959600242778 /* ConfigIotTableViewCell.swift */; };
+		76479B09295D959600242778 /* ConfigIotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479ADD295D959600242778 /* ConfigIotViewController.swift */; };
+		76479B0A295D959600242778 /* SideMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76479ADE295D959600242778 /* SideMenuCell.xib */; };
+		76479B0B295D959600242778 /* UnpairDevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479AE0295D959600242778 /* UnpairDevicesViewController.m */; };
+		76479B0C295D959600242778 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AE2295D959600242778 /* MainViewController.swift */; };
+		76479B0D295D959600242778 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AE4295D959600242778 /* SideMenuModel.swift */; };
+		76479B0E295D959600242778 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479AE5295D959600242778 /* SceneDelegate.m */; };
+		76479B0F295D959600242778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76479AE6295D959600242778 /* Main.storyboard */; };
+		76479B10295D959600242778 /* QRCodeViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AE8295D959600242778 /* QRCodeViewController+Extension.swift */; };
+		76479B12295D959600242778 /* AppDeligate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AEC295D959600242778 /* AppDeligate+Extension.swift */; };
+		76479B13295D959600242778 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AED295D959600242778 /* SideMenuCell.swift */; };
+		76479B14295D959600242778 /* AddDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AEE295D959600242778 /* AddDeviceViewController.swift */; };
+		76479B15295D959600242778 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479AF1295D959600242778 /* AppDelegate.m */; };
+		76479B16295D959600242778 /* MatterConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AF4295D959600242778 /* MatterConfigurationViewController.swift */; };
+		76479B17295D959600242778 /* PersonalizeCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AF6295D959600242778 /* PersonalizeCardViewController.swift */; };
+		76479B39295D981A00242778 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B1A295D981A00242778 /* IQTextView.m */; };
+		76479B3A295D981A00242778 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B1E295D981A00242778 /* IQToolbar.m */; };
+		76479B3B295D981A00242778 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B20295D981A00242778 /* IQTitleBarButtonItem.m */; };
+		76479B3C295D981A00242778 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B21295D981A00242778 /* IQBarButtonItem.m */; };
+		76479B3D295D981A00242778 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B22295D981A00242778 /* IQUIView+IQKeyboardToolbar.m */; };
+		76479B3E295D981A00242778 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B23295D981A00242778 /* IQPreviousNextView.m */; };
+		76479B3F295D981A00242778 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B2C295D981A00242778 /* IQKeyboardManager.m */; };
+		76479B40295D981A00242778 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B2E295D981A00242778 /* IQNSArray+Sort.m */; };
+		76479B41295D981A00242778 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B30295D981A00242778 /* IQUITextFieldView+Additions.m */; };
+		76479B42295D981A00242778 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B31295D981A00242778 /* IQUIScrollView+Additions.m */; };
+		76479B43295D981A00242778 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B32295D981A00242778 /* IQUIView+Hierarchy.m */; };
+		76479B44295D981A00242778 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B36295D981A00242778 /* IQUIViewController+Additions.m */; };
+		76479B45295D981A00242778 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479B38295D981A00242778 /* IQKeyboardReturnKeyHandler.m */; };
+		76479B46295DAF7900242778 /* WiFiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479ABF295D959500242778 /* WiFiViewController.m */; };
+		7659E77C295ED13B0051D37D /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479AE9295D959600242778 /* QRCodeViewController.m */; };
+		7659E77D295ED69E0051D37D /* SLOnOffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76479AD6295D959600242778 /* SLOnOffViewController.m */; };
+		7659E77E295ED6A10051D37D /* SLOnOffViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76479AD5295D959600242778 /* SLOnOffViewController+Extension.swift */; };
+		767BF3BC2962BF2800168F11 /* AWSMobileClientXCF in Frameworks */ = {isa = PBXBuildFile; productRef = 767BF3BB2962BF2800168F11 /* AWSMobileClientXCF */; };
+		767BF3BE2962BF3900168F11 /* AWSCognitoAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 767BF3BD2962BF3900168F11 /* AWSCognitoAuth */; };
+		767BF3C02962C0C800168F11 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 767BF3BF2962C0C800168F11 /* AWSCognitoAuthPlugin */; };
+		991DC091247747F500C13860 /* EnumerateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991DC090247747F500C13860 /* EnumerateViewController.m */; };
+		B204A62C244E1D0700C7C0E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B204A62B244E1D0700C7C0E1 /* Assets.xcassets */; };
+		B204A632244E1D0700C7C0E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B204A631244E1D0700C7C0E1 /* main.m */; };
+		B232D8BA2514BD0800792CB4 /* CHIPUIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B232D8B92514BD0800792CB4 /* CHIPUIViewUtils.m */; };
+		B2946A9B24C9A7BF005C87D0 /* DefaultsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B2946A9A24C9A7BF005C87D0 /* DefaultsUtils.m */; };
+		B2B0209225C9C1AC00A4C220 /* BindingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B0209125C9C1AC00A4C220 /* BindingsViewController.m */; };
+		B2C2267526289324009DAB8B /* FabricUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C2267426289324009DAB8B /* FabricUIViewController.m */; };
+		B2F51E99252DCDC000911FA5 /* TemperatureSensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F51E98252DCDC000911FA5 /* TemperatureSensorViewController.m */; };
+		B2F53AEB245B0D140010745E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F53AE9245B0D140010745E /* LaunchScreen.storyboard */; };
+		D437613C285BC0060051FEA2 /* Matter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D437613B285BC0060051FEA2 /* Matter.framework */; };
+		D437613D285BC0060051FEA2 /* Matter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D437613B285BC0060051FEA2 /* Matter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B204A638244E1D0700C7C0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B204A614244E1D0600C7C0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B204A61B244E1D0600C7C0E1;
+			remoteInfo = CHIPTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D437613A285BBE3B0051FEA2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D437613D285BC0060051FEA2 /* Matter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CA0E0CD248599BB009087B9 /* OnOffViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnOffViewController.h; sourceTree = "<group>"; };
+		0CA0E0CE248599BB009087B9 /* OnOffViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnOffViewController.m; sourceTree = "<group>"; };
+		2C21071325D1A8F200DDA4AD /* MultiAdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiAdminViewController.m; sourceTree = "<group>"; };
+		2C21071425D1A8F200DDA4AD /* MultiAdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiAdminViewController.h; sourceTree = "<group>"; };
+		2C460C2225D7594B000512D6 /* DeviceSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceSelector.h; sourceTree = "<group>"; };
+		2C460C2325D7594B000512D6 /* DeviceSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceSelector.m; sourceTree = "<group>"; };
+		51C8E3F928261DCF00D47D00 /* FabricKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FabricKeys.h; sourceTree = "<group>"; };
+		51C8E3FA28261DCF00D47D00 /* FabricKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FabricKeys.m; sourceTree = "<group>"; };
+		76479AAF295D742000242778 /* SmartLock-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartLock-Bridging-Header.h"; sourceTree = "<group>"; };
+		76479AB0295D742000242778 /* SampleFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFile.swift; sourceTree = "<group>"; };
+		76479AB2295D914300242778 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		76479AB4295D91CD00242778 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		76479AB6295D92A600242778 /* awsiot-identity.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "awsiot-identity.p12"; sourceTree = "<group>"; };
+		76479AB9295D92EA00242778 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		76479ABE295D959500242778 /* WiFiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiViewController.h; sourceTree = "<group>"; };
+		76479ABF295D959500242778 /* WiFiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiViewController.m; sourceTree = "<group>"; };
+		76479AC0295D959500242778 /* SetupKeyPinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupKeyPinViewController.swift; sourceTree = "<group>"; };
+		76479AC1295D959500242778 /* ViewDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDeviceViewController.swift; sourceTree = "<group>"; };
+		76479AC2295D959500242778 /* DeviceSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceSelector.m; sourceTree = "<group>"; };
+		76479AC3295D959500242778 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		76479AC4295D959500242778 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76479AC8295D959600242778 /* ProvisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvisionViewController.swift; sourceTree = "<group>"; };
+		76479ACA295D959600242778 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		76479ACB295D959600242778 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		76479ACD295D959600242778 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		76479ACE295D959600242778 /* RootViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewControllerExtension.swift; sourceTree = "<group>"; };
+		76479ACF295D959600242778 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		76479AD1295D959600242778 /* Reachabulity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachabulity.swift; sourceTree = "<group>"; };
+		76479AD3295D959600242778 /* SLOnOffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLOnOffViewController.h; sourceTree = "<group>"; };
+		76479AD4295D959600242778 /* OnOffAwsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnOffAwsViewController.swift; sourceTree = "<group>"; };
+		76479AD5295D959600242778 /* SLOnOffViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SLOnOffViewController+Extension.swift"; sourceTree = "<group>"; };
+		76479AD6295D959600242778 /* SLOnOffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLOnOffViewController.m; sourceTree = "<group>"; };
+		76479AD8295D959600242778 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		76479ADA295D959600242778 /* BatteryFrequencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryFrequencyViewController.swift; sourceTree = "<group>"; };
+		76479ADC295D959600242778 /* ConfigIotTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigIotTableViewCell.swift; sourceTree = "<group>"; };
+		76479ADD295D959600242778 /* ConfigIotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigIotViewController.swift; sourceTree = "<group>"; };
+		76479ADE295D959600242778 /* SideMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuCell.xib; sourceTree = "<group>"; };
+		76479AE0295D959600242778 /* UnpairDevicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnpairDevicesViewController.m; sourceTree = "<group>"; };
+		76479AE1295D959600242778 /* UnpairDevicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnpairDevicesViewController.h; sourceTree = "<group>"; };
+		76479AE2295D959600242778 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		76479AE4295D959600242778 /* SideMenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
+		76479AE5295D959600242778 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		76479AE6295D959600242778 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		76479AE8295D959600242778 /* QRCodeViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QRCodeViewController+Extension.swift"; sourceTree = "<group>"; };
+		76479AE9295D959600242778 /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
+		76479AEA295D959600242778 /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		76479AEB295D959600242778 /* DeviceSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceSelector.h; sourceTree = "<group>"; };
+		76479AEC295D959600242778 /* AppDeligate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDeligate+Extension.swift"; sourceTree = "<group>"; };
+		76479AED295D959600242778 /* SideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		76479AEE295D959600242778 /* AddDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDeviceViewController.swift; sourceTree = "<group>"; };
+		76479AF1295D959600242778 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76479AF4295D959600242778 /* MatterConfigurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatterConfigurationViewController.swift; sourceTree = "<group>"; };
+		76479AF6295D959600242778 /* PersonalizeCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalizeCardViewController.swift; sourceTree = "<group>"; };
+		76479AF7295D959600242778 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		76479B1A295D981A00242778 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		76479B1B295D981A00242778 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		76479B1D295D981A00242778 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		76479B1E295D981A00242778 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		76479B1F295D981A00242778 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		76479B20295D981A00242778 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		76479B21295D981A00242778 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		76479B22295D981A00242778 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		76479B23295D981A00242778 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		76479B24295D981A00242778 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		76479B25295D981A00242778 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		76479B26295D981A00242778 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		76479B28295D981A00242778 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		76479B29295D981A00242778 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		76479B2A295D981A00242778 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		76479B2B295D981A00242778 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		76479B2C295D981A00242778 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		76479B2E295D981A00242778 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		76479B2F295D981A00242778 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		76479B30295D981A00242778 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		76479B31295D981A00242778 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		76479B32295D981A00242778 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		76479B33295D981A00242778 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		76479B34295D981A00242778 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		76479B35295D981A00242778 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		76479B36295D981A00242778 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		76479B37295D981A00242778 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		76479B38295D981A00242778 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		991DC08F247747F500C13860 /* EnumerateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumerateViewController.h; sourceTree = "<group>"; };
+		991DC090247747F500C13860 /* EnumerateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumerateViewController.m; sourceTree = "<group>"; };
+		B204A61C244E1D0600C7C0E1 /* SmartLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B204A61F244E1D0600C7C0E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B204A620244E1D0600C7C0E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B204A622244E1D0600C7C0E1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B204A623244E1D0600C7C0E1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B204A625244E1D0600C7C0E1 /* QRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		B204A626244E1D0600C7C0E1 /* QRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
+		B204A62B244E1D0700C7C0E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B204A630244E1D0700C7C0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B204A631244E1D0700C7C0E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B204A637244E1D0700C7C0E1 /* SmartLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B204A63D244E1D0700C7C0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B232D8B82514BD0800792CB4 /* CHIPUIViewUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHIPUIViewUtils.h; sourceTree = "<group>"; };
+		B232D8B92514BD0800792CB4 /* CHIPUIViewUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHIPUIViewUtils.m; sourceTree = "<group>"; };
+		B243A6672513A73600E56FEA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B243A6682513A73600E56FEA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B27FAB67255D4B980038F0D2 /* CHIPTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CHIPTool.entitlements; sourceTree = "<group>"; };
+		B2946A9924C9A7BF005C87D0 /* DefaultsUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultsUtils.h; sourceTree = "<group>"; };
+		B2946A9A24C9A7BF005C87D0 /* DefaultsUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultsUtils.m; sourceTree = "<group>"; };
+		B2B0209025C9C1AC00A4C220 /* BindingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BindingsViewController.h; sourceTree = "<group>"; };
+		B2B0209125C9C1AC00A4C220 /* BindingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BindingsViewController.m; sourceTree = "<group>"; };
+		B2C2267326289324009DAB8B /* FabricUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FabricUIViewController.h; sourceTree = "<group>"; };
+		B2C2267426289324009DAB8B /* FabricUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FabricUIViewController.m; sourceTree = "<group>"; };
+		B2F51E97252DCDC000911FA5 /* TemperatureSensorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureSensorViewController.h; sourceTree = "<group>"; };
+		B2F51E98252DCDC000911FA5 /* TemperatureSensorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureSensorViewController.m; sourceTree = "<group>"; };
+		B2F53AEA245B0D140010745E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = UI/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D437613B285BC0060051FEA2 /* Matter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Matter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B204A619244E1D0600C7C0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76479AA5295D6F8500242778 /* Amplify in Frameworks */,
+				76479AAC295D705000242778 /* AWSDynamoDB in Frameworks */,
+				767BF3C02962C0C800168F11 /* AWSCognitoAuthPlugin in Frameworks */,
+				D437613C285BC0060051FEA2 /* Matter.framework in Frameworks */,
+				767BF3BC2962BF2800168F11 /* AWSMobileClientXCF in Frameworks */,
+				76479AAE295D705000242778 /* AWSIoT in Frameworks */,
+				767BF3BE2962BF3900168F11 /* AWSCognitoAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B204A634244E1D0700C7C0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C79937824858B3B0047A373 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				B204A625244E1D0600C7C0E1 /* QRCodeViewController.h */,
+				B204A626244E1D0600C7C0E1 /* QRCodeViewController.m */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		0C79937924858B4F0047A373 /* Enumeration */ = {
+			isa = PBXGroup;
+			children = (
+				991DC08F247747F500C13860 /* EnumerateViewController.h */,
+				991DC090247747F500C13860 /* EnumerateViewController.m */,
+			);
+			path = Enumeration;
+			sourceTree = "<group>";
+		};
+		0CA0E0D0248599C4009087B9 /* OnOffCluster */ = {
+			isa = PBXGroup;
+			children = (
+				0CA0E0CD248599BB009087B9 /* OnOffViewController.h */,
+				0CA0E0CE248599BB009087B9 /* OnOffViewController.m */,
+			);
+			path = OnOffCluster;
+			sourceTree = "<group>";
+		};
+		2C21071225D1A8F200DDA4AD /* MultiAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				2C21071325D1A8F200DDA4AD /* MultiAdminViewController.m */,
+				2C21071425D1A8F200DDA4AD /* MultiAdminViewController.h */,
+			);
+			path = MultiAdmin;
+			sourceTree = "<group>";
+		};
+		76479AB8295D92EA00242778 /* IOT */ = {
+			isa = PBXGroup;
+			children = (
+				76479AB9295D92EA00242778 /* Constants.swift */,
+			);
+			path = IOT;
+			sourceTree = "<group>";
+		};
+		76479ABB295D959500242778 /* SmartLockVC */ = {
+			isa = PBXGroup;
+			children = (
+				76479ABC295D959500242778 /* View Controllers */,
+			);
+			path = SmartLockVC;
+			sourceTree = "<group>";
+		};
+		76479ABC295D959500242778 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				76479AC3295D959500242778 /* SideMenuViewController.swift */,
+				76479AE2295D959600242778 /* MainViewController.swift */,
+				76479ADE295D959600242778 /* SideMenuCell.xib */,
+				76479AE4295D959600242778 /* SideMenuModel.swift */,
+				76479AED295D959600242778 /* SideMenuCell.swift */,
+				76479AC6295D959600242778 /* SmartLockVC */,
+				76479ABD295D959500242778 /* WiFi */,
+				76479AC5295D959500242778 /* MultiAdmin */,
+				76479ADB295D959600242778 /* configIOT */,
+				76479ADF295D959600242778 /* UnpairDevices */,
+				76479AE3295D959600242778 /* Enumeration */,
+				76479AE7295D959600242778 /* QRCode */,
+				76479AF2295D959600242778 /* Temperature Sensor */,
+				76479AF3295D959600242778 /* Fabric */,
+				76479AF5295D959600242778 /* Bindings */,
+				76479AC0295D959500242778 /* SetupKeyPinViewController.swift */,
+				76479AF4295D959600242778 /* MatterConfigurationViewController.swift */,
+				76479AC1295D959500242778 /* ViewDeviceViewController.swift */,
+				76479AEE295D959600242778 /* AddDeviceViewController.swift */,
+				76479AF6295D959600242778 /* PersonalizeCardViewController.swift */,
+				76479AC2295D959500242778 /* DeviceSelector.m */,
+				76479AEB295D959600242778 /* DeviceSelector.h */,
+				76479AE5295D959600242778 /* SceneDelegate.m */,
+				76479AF7295D959600242778 /* SceneDelegate.h */,
+				76479AF1295D959600242778 /* AppDelegate.m */,
+				76479AC4295D959500242778 /* AppDelegate.h */,
+				76479AEC295D959600242778 /* AppDeligate+Extension.swift */,
+				76479AE6295D959600242778 /* Main.storyboard */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		76479ABD295D959500242778 /* WiFi */ = {
+			isa = PBXGroup;
+			children = (
+				76479ABE295D959500242778 /* WiFiViewController.h */,
+				76479ABF295D959500242778 /* WiFiViewController.m */,
+			);
+			path = WiFi;
+			sourceTree = "<group>";
+		};
+		76479AC5295D959500242778 /* MultiAdmin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MultiAdmin;
+			sourceTree = "<group>";
+		};
+		76479AC6295D959600242778 /* SmartLockVC */ = {
+			isa = PBXGroup;
+			children = (
+				76479AD0295D959600242778 /* Reachabulity */,
+				76479AD9295D959600242778 /* Battery Frequency */,
+				76479AC7295D959600242778 /* HomeVC */,
+				76479AC9295D959600242778 /* Signup */,
+				76479ACC295D959600242778 /* RootVC */,
+				76479AD2295D959600242778 /* OnOff */,
+				76479AD7295D959600242778 /* Helper */,
+			);
+			path = SmartLockVC;
+			sourceTree = "<group>";
+		};
+		76479AC7295D959600242778 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				76479AC8295D959600242778 /* ProvisionViewController.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		76479AC9295D959600242778 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				76479ACA295D959600242778 /* SignUpViewController.swift */,
+				76479ACB295D959600242778 /* OTPViewController.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		76479ACC295D959600242778 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				76479ACD295D959600242778 /* RootViewController.m */,
+				76479ACE295D959600242778 /* RootViewControllerExtension.swift */,
+				76479ACF295D959600242778 /* RootViewController.h */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		76479AD0295D959600242778 /* Reachabulity */ = {
+			isa = PBXGroup;
+			children = (
+				76479AD1295D959600242778 /* Reachabulity.swift */,
+			);
+			path = Reachabulity;
+			sourceTree = "<group>";
+		};
+		76479AD2295D959600242778 /* OnOff */ = {
+			isa = PBXGroup;
+			children = (
+				76479AD3295D959600242778 /* SLOnOffViewController.h */,
+				76479AD4295D959600242778 /* OnOffAwsViewController.swift */,
+				76479AD5295D959600242778 /* SLOnOffViewController+Extension.swift */,
+				76479AD6295D959600242778 /* SLOnOffViewController.m */,
+			);
+			path = OnOff;
+			sourceTree = "<group>";
+		};
+		76479AD7295D959600242778 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				76479AD8295D959600242778 /* UIView+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		76479AD9295D959600242778 /* Battery Frequency */ = {
+			isa = PBXGroup;
+			children = (
+				76479ADA295D959600242778 /* BatteryFrequencyViewController.swift */,
+			);
+			path = "Battery Frequency";
+			sourceTree = "<group>";
+		};
+		76479ADB295D959600242778 /* configIOT */ = {
+			isa = PBXGroup;
+			children = (
+				76479ADC295D959600242778 /* ConfigIotTableViewCell.swift */,
+				76479ADD295D959600242778 /* ConfigIotViewController.swift */,
+			);
+			path = configIOT;
+			sourceTree = "<group>";
+		};
+		76479ADF295D959600242778 /* UnpairDevices */ = {
+			isa = PBXGroup;
+			children = (
+				76479AE0295D959600242778 /* UnpairDevicesViewController.m */,
+				76479AE1295D959600242778 /* UnpairDevicesViewController.h */,
+			);
+			path = UnpairDevices;
+			sourceTree = "<group>";
+		};
+		76479AE3295D959600242778 /* Enumeration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enumeration;
+			sourceTree = "<group>";
+		};
+		76479AE7295D959600242778 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				76479AE8295D959600242778 /* QRCodeViewController+Extension.swift */,
+				76479AE9295D959600242778 /* QRCodeViewController.m */,
+				76479AEA295D959600242778 /* QRCodeViewController.h */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		76479AF2295D959600242778 /* Temperature Sensor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Temperature Sensor";
+			sourceTree = "<group>";
+		};
+		76479AF3295D959600242778 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		76479AF5295D959600242778 /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bindings;
+			sourceTree = "<group>";
+		};
+		76479B18295D981A00242778 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				76479B19295D981A00242778 /* IQTextView */,
+				76479B1C295D981A00242778 /* IQToolbar */,
+				76479B27295D981A00242778 /* Constants */,
+				76479B2A295D981A00242778 /* IQKeyboardReturnKeyHandler.h */,
+				76479B2B295D981A00242778 /* IQKeyboardManager.h */,
+				76479B2C295D981A00242778 /* IQKeyboardManager.m */,
+				76479B2D295D981A00242778 /* Categories */,
+				76479B38295D981A00242778 /* IQKeyboardReturnKeyHandler.m */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		76479B19295D981A00242778 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				76479B1A295D981A00242778 /* IQTextView.m */,
+				76479B1B295D981A00242778 /* IQTextView.h */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		76479B1C295D981A00242778 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				76479B1D295D981A00242778 /* IQUIView+IQKeyboardToolbar.h */,
+				76479B1E295D981A00242778 /* IQToolbar.m */,
+				76479B1F295D981A00242778 /* IQPreviousNextView.h */,
+				76479B20295D981A00242778 /* IQTitleBarButtonItem.m */,
+				76479B21295D981A00242778 /* IQBarButtonItem.m */,
+				76479B22295D981A00242778 /* IQUIView+IQKeyboardToolbar.m */,
+				76479B23295D981A00242778 /* IQPreviousNextView.m */,
+				76479B24295D981A00242778 /* IQToolbar.h */,
+				76479B25295D981A00242778 /* IQBarButtonItem.h */,
+				76479B26295D981A00242778 /* IQTitleBarButtonItem.h */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		76479B27295D981A00242778 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				76479B28295D981A00242778 /* IQKeyboardManagerConstantsInternal.h */,
+				76479B29295D981A00242778 /* IQKeyboardManagerConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		76479B2D295D981A00242778 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				76479B2E295D981A00242778 /* IQNSArray+Sort.m */,
+				76479B2F295D981A00242778 /* IQUIViewController+Additions.h */,
+				76479B30295D981A00242778 /* IQUITextFieldView+Additions.m */,
+				76479B31295D981A00242778 /* IQUIScrollView+Additions.m */,
+				76479B32295D981A00242778 /* IQUIView+Hierarchy.m */,
+				76479B33295D981A00242778 /* IQNSArray+Sort.h */,
+				76479B34295D981A00242778 /* IQUIScrollView+Additions.h */,
+				76479B35295D981A00242778 /* IQUITextFieldView+Additions.h */,
+				76479B36295D981A00242778 /* IQUIViewController+Additions.m */,
+				76479B37295D981A00242778 /* IQUIView+Hierarchy.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B20252DE2459EC7600F97062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D437613B285BC0060051FEA2 /* Matter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B204A613244E1D0600C7C0E1 = {
+			isa = PBXGroup;
+			children = (
+				76479AB0295D742000242778 /* SampleFile.swift */,
+				B204A61E244E1D0600C7C0E1 /* CHIPTool */,
+				B204A63A244E1D0700C7C0E1 /* CHIPToolTests */,
+				B204A61D244E1D0600C7C0E1 /* Products */,
+				B20252DE2459EC7600F97062 /* Frameworks */,
+				76479AAF295D742000242778 /* SmartLock-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		B204A61D244E1D0600C7C0E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B204A61C244E1D0600C7C0E1 /* SmartLock.app */,
+				B204A637244E1D0700C7C0E1 /* SmartLockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B204A61E244E1D0600C7C0E1 /* CHIPTool */ = {
+			isa = PBXGroup;
+			children = (
+				76479AB2295D914300242778 /* amplifyconfiguration.json */,
+				76479AB4295D91CD00242778 /* awsconfiguration.json */,
+				B27FAB67255D4B980038F0D2 /* CHIPTool.entitlements */,
+				B204A62B244E1D0700C7C0E1 /* Assets.xcassets */,
+				B2F53AE9245B0D140010745E /* LaunchScreen.storyboard */,
+				B204A630244E1D0700C7C0E1 /* Info.plist */,
+				76479AB6295D92A600242778 /* awsiot-identity.p12 */,
+				B204A631244E1D0700C7C0E1 /* main.m */,
+				76479AB8295D92EA00242778 /* IOT */,
+				76479ABB295D959500242778 /* SmartLockVC */,
+				76479B18295D981A00242778 /* IQKeyboardManager */,
+				B232D8C0251A0EE200792CB4 /* Framework Helpers */,
+				B232D8BF251A0EC500792CB4 /* View Controllers Default */,
+				B232D8BE251A0EA300792CB4 /* UI Helpers */,
+			);
+			path = CHIPTool;
+			sourceTree = "<group>";
+		};
+		B204A63A244E1D0700C7C0E1 /* CHIPToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				B204A63D244E1D0700C7C0E1 /* Info.plist */,
+			);
+			path = CHIPToolTests;
+			sourceTree = "<group>";
+		};
+		B232D8BE251A0EA300792CB4 /* UI Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B232D8B82514BD0800792CB4 /* CHIPUIViewUtils.h */,
+				B232D8B92514BD0800792CB4 /* CHIPUIViewUtils.m */,
+			);
+			path = "UI Helpers";
+			sourceTree = "<group>";
+		};
+		B232D8BF251A0EC500792CB4 /* View Controllers Default */ = {
+			isa = PBXGroup;
+			children = (
+				2C460C2225D7594B000512D6 /* DeviceSelector.h */,
+				2C460C2325D7594B000512D6 /* DeviceSelector.m */,
+				2C21071225D1A8F200DDA4AD /* MultiAdmin */,
+				B204A61F244E1D0600C7C0E1 /* AppDelegate.h */,
+				B204A620244E1D0600C7C0E1 /* AppDelegate.m */,
+				B204A622244E1D0600C7C0E1 /* SceneDelegate.h */,
+				B204A623244E1D0600C7C0E1 /* SceneDelegate.m */,
+				B243A6672513A73600E56FEA /* RootViewController.h */,
+				B243A6682513A73600E56FEA /* RootViewController.m */,
+				B2F51E93252DCC9E00911FA5 /* Temperature Sensor */,
+				B2B0208F25C9C18500A4C220 /* Bindings */,
+				0C79937824858B3B0047A373 /* QRCode */,
+				B2C22672262892D7009DAB8B /* Fabric */,
+				0C79937924858B4F0047A373 /* Enumeration */,
+				0CA0E0D0248599C4009087B9 /* OnOffCluster */,
+			);
+			path = "View Controllers Default";
+			sourceTree = "<group>";
+		};
+		B232D8C0251A0EE200792CB4 /* Framework Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				51C8E3F928261DCF00D47D00 /* FabricKeys.h */,
+				51C8E3FA28261DCF00D47D00 /* FabricKeys.m */,
+				B2946A9924C9A7BF005C87D0 /* DefaultsUtils.h */,
+				B2946A9A24C9A7BF005C87D0 /* DefaultsUtils.m */,
+			);
+			path = "Framework Helpers";
+			sourceTree = "<group>";
+		};
+		B2B0208F25C9C18500A4C220 /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0209025C9C1AC00A4C220 /* BindingsViewController.h */,
+				B2B0209125C9C1AC00A4C220 /* BindingsViewController.m */,
+			);
+			path = Bindings;
+			sourceTree = "<group>";
+		};
+		B2C22672262892D7009DAB8B /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				B2C2267326289324009DAB8B /* FabricUIViewController.h */,
+				B2C2267426289324009DAB8B /* FabricUIViewController.m */,
+			);
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		B2F51E93252DCC9E00911FA5 /* Temperature Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				B2F51E97252DCDC000911FA5 /* TemperatureSensorViewController.h */,
+				B2F51E98252DCDC000911FA5 /* TemperatureSensorViewController.m */,
+			);
+			path = "Temperature Sensor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B204A61B244E1D0600C7C0E1 /* SmartLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B204A64B244E1D0700C7C0E1 /* Build configuration list for PBXNativeTarget "SmartLock" */;
+			buildPhases = (
+				B204A618244E1D0600C7C0E1 /* Sources */,
+				B204A619244E1D0600C7C0E1 /* Frameworks */,
+				B204A61A244E1D0600C7C0E1 /* Resources */,
+				D437613A285BBE3B0051FEA2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartLock;
+			packageProductDependencies = (
+				76479AA4295D6F8500242778 /* Amplify */,
+				76479AAB295D705000242778 /* AWSDynamoDB */,
+				76479AAD295D705000242778 /* AWSIoT */,
+				767BF3BB2962BF2800168F11 /* AWSMobileClientXCF */,
+				767BF3BD2962BF3900168F11 /* AWSCognitoAuth */,
+				767BF3BF2962C0C800168F11 /* AWSCognitoAuthPlugin */,
+			);
+			productName = CHIPTool;
+			productReference = B204A61C244E1D0600C7C0E1 /* SmartLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B204A636244E1D0700C7C0E1 /* SmartLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B204A64E244E1D0700C7C0E1 /* Build configuration list for PBXNativeTarget "SmartLockTests" */;
+			buildPhases = (
+				B204A633244E1D0700C7C0E1 /* Sources */,
+				B204A634244E1D0700C7C0E1 /* Frameworks */,
+				B204A635244E1D0700C7C0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B204A639244E1D0700C7C0E1 /* PBXTargetDependency */,
+			);
+			name = SmartLockTests;
+			productName = CHIPToolTests;
+			productReference = B204A637244E1D0700C7C0E1 /* SmartLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B204A614244E1D0600C7C0E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = CHIP;
+				TargetAttributes = {
+					B204A61B244E1D0600C7C0E1 = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1410;
+					};
+					B204A636244E1D0700C7C0E1 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B204A61B244E1D0600C7C0E1;
+					};
+				};
+			};
+			buildConfigurationList = B204A617244E1D0600C7C0E1 /* Build configuration list for PBXProject "SmartLock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B204A613244E1D0600C7C0E1;
+			packageReferences = (
+				76479A9F295D6F8500242778 /* XCRemoteSwiftPackageReference "amplify-ios" */,
+				76479AA6295D705000242778 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */,
+			);
+			productRefGroup = B204A61D244E1D0600C7C0E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B204A61B244E1D0600C7C0E1 /* SmartLock */,
+				B204A636244E1D0700C7C0E1 /* SmartLockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B204A61A244E1D0600C7C0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76479B0F295D959600242778 /* Main.storyboard in Resources */,
+				76479AB5295D91CD00242778 /* awsconfiguration.json in Resources */,
+				B204A62C244E1D0700C7C0E1 /* Assets.xcassets in Resources */,
+				76479AB7295D92A700242778 /* awsiot-identity.p12 in Resources */,
+				76479AB3295D914300242778 /* amplifyconfiguration.json in Resources */,
+				B2F53AEB245B0D140010745E /* LaunchScreen.storyboard in Resources */,
+				76479B0A295D959600242778 /* SideMenuCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B204A635244E1D0700C7C0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B204A618244E1D0600C7C0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76479B40295D981A00242778 /* IQNSArray+Sort.m in Sources */,
+				76479ABA295D92EA00242778 /* Constants.swift in Sources */,
+				7659E77E295ED6A10051D37D /* SLOnOffViewController+Extension.swift in Sources */,
+				76479B43295D981A00242778 /* IQUIView+Hierarchy.m in Sources */,
+				2C21071525D1A8F200DDA4AD /* MultiAdminViewController.m in Sources */,
+				76479AFB295D959600242778 /* DeviceSelector.m in Sources */,
+				76479B02295D959600242778 /* Reachabulity.swift in Sources */,
+				76479B16295D959600242778 /* MatterConfigurationViewController.swift in Sources */,
+				76479B3D295D981A00242778 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				76479B42295D981A00242778 /* IQUIScrollView+Additions.m in Sources */,
+				76479B12295D959600242778 /* AppDeligate+Extension.swift in Sources */,
+				76479B44295D981A00242778 /* IQUIViewController+Additions.m in Sources */,
+				76479AFD295D959600242778 /* ProvisionViewController.swift in Sources */,
+				76479B14295D959600242778 /* AddDeviceViewController.swift in Sources */,
+				76479B09295D959600242778 /* ConfigIotViewController.swift in Sources */,
+				76479B0D295D959600242778 /* SideMenuModel.swift in Sources */,
+				76479B3B295D981A00242778 /* IQTitleBarButtonItem.m in Sources */,
+				76479B08295D959600242778 /* ConfigIotTableViewCell.swift in Sources */,
+				76479B45295D981A00242778 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				76479B46295DAF7900242778 /* WiFiViewController.m in Sources */,
+				76479AFA295D959600242778 /* ViewDeviceViewController.swift in Sources */,
+				B232D8BA2514BD0800792CB4 /* CHIPUIViewUtils.m in Sources */,
+				B2946A9B24C9A7BF005C87D0 /* DefaultsUtils.m in Sources */,
+				76479B01295D959600242778 /* RootViewControllerExtension.swift in Sources */,
+				76479B0B295D959600242778 /* UnpairDevicesViewController.m in Sources */,
+				991DC091247747F500C13860 /* EnumerateViewController.m in Sources */,
+				76479B3E295D981A00242778 /* IQPreviousNextView.m in Sources */,
+				B2C2267526289324009DAB8B /* FabricUIViewController.m in Sources */,
+				76479AFF295D959600242778 /* OTPViewController.swift in Sources */,
+				76479AF9295D959600242778 /* SetupKeyPinViewController.swift in Sources */,
+				B2B0209225C9C1AC00A4C220 /* BindingsViewController.m in Sources */,
+				76479B41295D981A00242778 /* IQUITextFieldView+Additions.m in Sources */,
+				B2F51E99252DCDC000911FA5 /* TemperatureSensorViewController.m in Sources */,
+				76479AFC295D959600242778 /* SideMenuViewController.swift in Sources */,
+				76479B3A295D981A00242778 /* IQToolbar.m in Sources */,
+				76479B17295D959600242778 /* PersonalizeCardViewController.swift in Sources */,
+				B204A632244E1D0700C7C0E1 /* main.m in Sources */,
+				76479B3F295D981A00242778 /* IQKeyboardManager.m in Sources */,
+				76479B0C295D959600242778 /* MainViewController.swift in Sources */,
+				76479B06295D959600242778 /* UIView+Extension.swift in Sources */,
+				7659E77C295ED13B0051D37D /* QRCodeViewController.m in Sources */,
+				76479AB1295D742000242778 /* SampleFile.swift in Sources */,
+				76479B15295D959600242778 /* AppDelegate.m in Sources */,
+				76479B00295D959600242778 /* RootViewController.m in Sources */,
+				51C8E3FB28261DCF00D47D00 /* FabricKeys.m in Sources */,
+				76479B10295D959600242778 /* QRCodeViewController+Extension.swift in Sources */,
+				76479B03295D959600242778 /* OnOffAwsViewController.swift in Sources */,
+				7659E77D295ED69E0051D37D /* SLOnOffViewController.m in Sources */,
+				76479AFE295D959600242778 /* SignUpViewController.swift in Sources */,
+				76479B39295D981A00242778 /* IQTextView.m in Sources */,
+				76479B0E295D959600242778 /* SceneDelegate.m in Sources */,
+				76479B13295D959600242778 /* SideMenuCell.swift in Sources */,
+				76479B07295D959600242778 /* BatteryFrequencyViewController.swift in Sources */,
+				0CA0E0CF248599BB009087B9 /* OnOffViewController.m in Sources */,
+				76479B3C295D981A00242778 /* IQBarButtonItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B204A633244E1D0700C7C0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B204A639244E1D0700C7C0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B204A61B244E1D0600C7C0E1 /* SmartLock */;
+			targetProxy = B204A638244E1D0700C7C0E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2F53AE9245B0D140010745E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F53AEA245B0D140010745E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B204A649244E1D0700C7C0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CHIP_HAVE_CONFIG_H,
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B204A64A244E1D0700C7C0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CHIP_HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B204A64C244E1D0700C7C0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CHIPTool/CHIPTool.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 694N73S8VB;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CHIPTool/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartlock.main;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartLock-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B204A64D244E1D0700C7C0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CHIPTool/CHIPTool.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_TEAM = 694N73S8VB;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CHIPTool/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartlock.main;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartLock-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B204A64F244E1D0700C7C0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CHIPToolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chip.CHIPToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartLock.app/SmartLock";
+			};
+			name = Debug;
+		};
+		B204A650244E1D0700C7C0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CHIPToolTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chip.CHIPToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartLock.app/SmartLock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B204A617244E1D0600C7C0E1 /* Build configuration list for PBXProject "SmartLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B204A649244E1D0700C7C0E1 /* Debug */,
+				B204A64A244E1D0700C7C0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B204A64B244E1D0700C7C0E1 /* Build configuration list for PBXNativeTarget "SmartLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B204A64C244E1D0700C7C0E1 /* Debug */,
+				B204A64D244E1D0700C7C0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B204A64E244E1D0700C7C0E1 /* Build configuration list for PBXNativeTarget "SmartLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B204A64F244E1D0700C7C0E1 /* Debug */,
+				B204A650244E1D0700C7C0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76479A9F295D6F8500242778 /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		76479AA6295D705000242778 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/aws-sdk-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76479AA4295D6F8500242778 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76479A9F295D6F8500242778 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+		76479AAB295D705000242778 /* AWSDynamoDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76479AA6295D705000242778 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSDynamoDB;
+		};
+		76479AAD295D705000242778 /* AWSIoT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76479AA6295D705000242778 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSIoT;
+		};
+		767BF3BB2962BF2800168F11 /* AWSMobileClientXCF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76479AA6295D705000242778 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSMobileClientXCF;
+		};
+		767BF3BD2962BF3900168F11 /* AWSCognitoAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76479AA6295D705000242778 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSCognitoAuth;
+		};
+		767BF3BF2962C0C800168F11 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76479A9F295D6F8500242778 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B204A614244E1D0600C7C0E1 /* Project object */;
+}
